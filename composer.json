@@ -1,0 +1,28 @@
+{
+  "name": "passionweb/custom-permission-options",
+  "description": "Extending the permission options for backend user by additional options",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+  "homepage": "https://www.passionweb.de",
+  "authors": [
+    {
+      "name": "Kristian Raszewski",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+      "typo3/cms-core": "^12.4",
+      "typo3/cms-backend": "^12.4",
+      "typo3/cms-beuser": "^12.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Passionweb\\CustomPermissionOptions\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "custom_permission_options"
+    }
+  }
+}

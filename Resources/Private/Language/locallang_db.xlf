@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:ui_ext/Resources/Private/Language/locallang_db.xlf" date="2020-10-18T18:20:51Z" product-name="custom_permission_options">
+        <header/>
+        <body>
+            <trans-unit id="customPermOptions.header" resname="customPermOptions.header">
+                <source>Custom permission examples</source>
+            </trans-unit>
+            <trans-unit id="customPermOptions.extendFileAccess" resname="customPermOptions.extendFileAccess">
+                <source>Extended file access</source>
+            </trans-unit>
+            <trans-unit id="customPermOptions.extendFileAccessDescription" resname="customPermOptions.extendFileAccessDescription">
+                <source>Grants access to specific project files</source>
+            </trans-unit>
+            <trans-unit id="customPermOptions.extendPagesAccess" resname="customPermOptions.extendPagesAccess">
+                <source>Extended pages access</source>
+            </trans-unit>
+            <trans-unit id="customPermOptions.extendPagesAccessDescription" resname="customPermOptions.extendPagesAccessDescription">
+                <source>Grants access to specific project pages</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
