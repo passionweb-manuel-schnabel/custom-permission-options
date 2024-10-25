@@ -6,6 +6,8 @@ Shows the integration of custom permission options. (TYPO3 CMS)
 
 1.0.0: Extending the backend user groups permission interface by additional custom options.
 
+1.1.0: Shows example usage of custom permissions in backend module.
+
 ## Installation
 
 Add via composer:
