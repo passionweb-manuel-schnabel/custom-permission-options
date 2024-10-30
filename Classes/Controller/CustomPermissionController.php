@@ -46,7 +46,7 @@ class CustomPermissionController extends ActionController
             'extendedPagesAccess' => $extendedPagesAccess,
         ]);
 
-        return $this->htmlResponse($this->moduleTemplate->render());
+        return $this->htmlResponse($this->moduleTemplate->render("CustomPermission/PrintPermissions"));
     }
 
     private function getBackendUser() : BackendUserAuthentication

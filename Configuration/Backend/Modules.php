@@ -11,7 +11,7 @@ return [
         'labels' => 'LLL:EXT:custom_permission_options/Resources/Private/Language/locallang_db.xlf',
         'extensionName' => 'CustomPermissionOptions',
         'controllerActions' => [
-            \Passionweb\CustomPermissionOptions\Controller\CustomPermissionController::class => 'printPermissions',
+            \Passionweb\CustomPermissionOptions\Controller\CustomPermissionController::class => ['printPermissions'],
         ],
     ]
 ];

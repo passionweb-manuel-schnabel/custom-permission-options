@@ -8,6 +8,8 @@ Shows the integration of custom permission options. (TYPO3 CMS)
 
 1.1.0: Shows example usage of custom permissions in backend module.
 
+2.0.0: Add v13 compatibility
+
 ## Installation
 
 Add via composer:
